@@ -1,0 +1,39 @@
+.wrapper {
+   margin-top: 100px;
+   height: 170px;
+   width: 400px;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   margin: 0 auto;
+   border-radius: 5px;
+   background: orange;
+   transition: height 0.4s ease;
+}
+
+.wrapper.active {
+   height: 530px;
+}
+
+.qr-code {
+   margin-top: 100px;
+}
+
+.form button {
+   background: none;
+   outline: none;
+   border: none;
+   color: #000;
+   font-family: 'Courier New', Courier, monospace;
+   border: 2px solid #fff;
+   border-radius: 2px;
+}
+
+.form input {
+   background: none;
+   outline: none;
+   border: none;
+   color: #000;
+   font-family: 'Courier New', Courier, monospace;
+   border: 2px solid #fff;
+   border-radius: 2px;
+}
